@@ -12,8 +12,7 @@ class LeboncoinSpider(scrapy.Spider):
     """
     name = "leboncoin"
     start_urls = [
-        'http://www.leboncoin.fr/li?'
-        'ca=16_s&c=10&f=p&mre=800&sqs=6&ros=3&ret=1&ret=2&furn=2&location=Toulouse',
+        'https://www.leboncoin.fr/recherche/?category=9&locations=Vitry-sur-Seine_94400,Villejuif_94800,Ivry-sur-Seine_94200,Clamart_92140,Montrouge_92120,Montreuil_93100,Paris,Le%20Kremlin-Bic%C3%AAtre,Gentilly_94250,Bagneux_92220&real_estate_type=1,3',
     ]
     custom_settings = {
         'COOKIES_ENABLED': False,
